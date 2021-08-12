@@ -9,7 +9,7 @@ calc.geometry("410x540")
 calc.resizable(0,0)
 
 
-entry=Entry(calc,width=31, borderwidth=30, bg="grey", fg="blue", font="Courier" "100" "Bold", justify="right")
+entry=Entry(calc,width=31, borderwidth=30, bg="grey", fg="blue", font="Courier" "Bold", justify="right")
 
 entry.grid(row=0, column=0, padx=5, pady=5, columnspan=4)
 
