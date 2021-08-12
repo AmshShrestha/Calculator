@@ -15,7 +15,7 @@ entry.grid(row=0, column=0, padx=5, pady=5, columnspan=4) #Positioning entry box
 def click(num):
     string=entry.get()
     entry.delete(0,END)
-    entry.insert(0, str(string )+ str(num))
+    entry.insert(0, string + str(num))
 
 # Creating all clear function to erase all entered number
 def all_clear():
