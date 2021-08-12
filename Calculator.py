@@ -1,11 +1,10 @@
-
 from tkinter import*
 
 calc=Tk()
 calc.title("Simple Calculator")
 calc.configure(background="black")
 calc.iconbitmap("calculator.ico")
-calc.geometry("410x540")
+calc.geometry("410x535")
 calc.resizable(0,0)
 
 
